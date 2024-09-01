@@ -20,9 +20,9 @@
 html {
   font-size: 62.5%;
 }
-*::selection{
+*::selection {
   background-color: #ffffff;
-  color: #4e944f;
+  color: #3f8963;
 }
 body {
   position: relative;
@@ -33,7 +33,7 @@ body {
 header {
   position: relative;
   height: 8rem;
-  background-color: #4e944f;
+  background-color: #3f8963;
   z-index: 12;
 }
 nav {
@@ -109,14 +109,13 @@ nav .nav-bar ul li:hover .secondary-nav-container {
   display: block;
 }
 
-
 .curved-element {
   width: 100%;
   position: relative;
   display: block;
   z-index: 10;
 }
-#first-curve{
+#first-curve {
   margin-top: -0.5rem;
 }
 .about-me {
@@ -149,7 +148,7 @@ nav .nav-bar ul li:hover .secondary-nav-container {
   cursor: pointer;
   transition: all 0.2s;
   overflow: hidden;
-  box-shadow: 1rem 1rem 0rem #4e944f;
+  box-shadow: 1rem 1rem 0rem #3f8963;
 }
 
 .photo-block .my-image img {
@@ -166,7 +165,7 @@ nav .nav-bar ul li:hover .secondary-nav-container {
   font-size: 1.8rem;
   padding: 6rem 8rem;
   color: #fffef8;
-  background-color: #4e944f;
+  background-color: #3f8963;
   border-radius: 22% 78% 26% 74% / 77% 30% 70% 23%;
 }
 .cv-box {
@@ -179,7 +178,7 @@ nav .nav-bar ul li:hover .secondary-nav-container {
 .cv-box a:visited {
   display: inline-block;
   text-decoration: none;
-  background-color: #4e944f;
+  background-color: #3f8963;
   color: #fffef8;
   padding: 0.5rem 3rem;
   font-size: 2.4rem;
@@ -211,11 +210,11 @@ nav .nav-bar ul li:hover .secondary-nav-container {
   position: relative;
   padding: 5rem 0;
   width: 100%;
-  background-color: #4e944f;
+  background-color: #3f8963;
 }
 .projects-section {
   height: max-content;
-  background-color: #4e944f;
+  background-color: #3f8963;
   width: 75%;
   margin: 0 auto 15rem auto;
 }
@@ -275,8 +274,6 @@ nav .nav-bar ul li:hover .secondary-nav-container {
 .project-text-box p {
   font-size: 1.8rem;
   margin-bottom: 3rem;
-  
-  
 }
 .bold-cursive {
   color: #e9b3fa;
@@ -350,7 +347,7 @@ nav .nav-bar ul li:hover .secondary-nav-container {
 }
 .technologies-section-heading {
   display: inline-block;
-  color: #ffffff;
+  color: #fffef8;
   font-size: 2.8rem;
   padding: 0.5rem 0;
   margin-bottom: 2rem;
@@ -399,21 +396,19 @@ nav .nav-bar ul li:hover .secondary-nav-container {
   padding: 2rem;
   font-size: 1.8rem;
   font-weight: 500;
-  color: #ffffff;
+  color: #fffef8;
 }
-
-
 
 footer {
   width: 100%;
   position: absolute;
   bottom: 0;
-  background-color: rgba(78, 148, 79, 0.7);
+  /* background-color: rgba(78, 148, 79, 0.7); */
 }
 .contact-text-box {
   margin: 5rem 0 2rem 0;
   text-align: center;
-  color: #ffffff;
+  color: #fffef8;
   font-size: 1.8rem;
 }
 
@@ -429,7 +424,6 @@ footer {
   font-size: 1.6rem;
 }
 
-
 /* media  */
 
 @media (max-width: 75em) {
@@ -443,7 +437,7 @@ footer {
   .cv-box {
     margin-bottom: 20rem;
   }
-  
+
   .projects-section {
     width: 80%;
   }
@@ -466,7 +460,6 @@ footer {
     margin-left: 4rem;
   }
 
-  
   .cv-box {
     margin-bottom: 25rem;
   }
@@ -550,10 +543,9 @@ footer {
   .technologies-section-heading {
     font-size: 2.6rem;
   }
-  .techno-icons{
+  .techno-icons {
     padding: 3rem 0;
   }
-
 }
 
 @media (max-width: 40.63em) {
@@ -607,15 +599,14 @@ footer {
     width: 65%;
     text-align: center;
   }
-   .technologies-section-heading {
+  .technologies-section-heading {
     font-size: 2.8rem;
   }
   .techno-icons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    
   }
-  .icon-item{
+  .icon-item {
     justify-self: center;
     align-self: center;
   }
@@ -635,7 +626,6 @@ footer {
   .project-text-box p {
     font-size: 2.2rem;
   }
-  
 }
 @media (max-width: 28.75em) {
   .photo-block {
@@ -651,11 +641,9 @@ footer {
   .wraper {
     margin-top: -0.5rem;
   }
-   .technologies-section-heading {
+  .technologies-section-heading {
     font-size: 2.6rem;
   }
-  
-  
 }
 
 @media (max-width: 26.25em) {
@@ -694,11 +682,8 @@ footer {
   .icon-item {
     width: 5rem;
     height: 5rem;
-   
   }
   .icon-item span {
     font-size: 1.4rem;
   }
-  
-  
 }
