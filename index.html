@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Jiroutová</title>
+  <link rel="icon" type="image/x-icon" href="./images/icons/globalization.png">
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="logo">AJ</div>
+      <div class="nav-bar">
+        <ul>
+          <li id="nav-about-el"><a href="#about-me">About</a></li>
+          <li><a href="#projects-section">Projects</a></li>
+          <li id="nav-cv-el"><a href="#">CV</a>
+            <div class="secondary-nav-container">
+              <ul class="secondary-nav">
+                <li><a target="_blank" href="./docs/CV_Jiroutová_eng.pdf">CV in English</a></li>
+                <li><a target="_blank" href="./docs/CV_Jiroutová_cze.pdf">CV in Czech</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="#contact-section">Contacts</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div class="curve">
+    <svg class="curved-element" id="first-curve" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#4e944f" fill-opacity="1"
+        d="M0,64L30,58.7C60,53,120,43,180,42.7C240,43,300,53,360,80C420,107,480,149,540,149.3C600,149,660,107,720,106.7C780,107,840,149,900,149.3C960,149,1020,107,1080,101.3C1140,96,1200,128,1260,122.7C1320,117,1380,75,1410,53.3L1440,32L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z">
+      </path>
+    </svg>
+  </div>
+  <section class="about-me" id="about-me">
+    <div class="photo-block">
+      <div class="my-image">
+        <img src="./images/profile_image_1.jpg" alt="profile_image">
+      </div>
+      <p>
+        Hi, I'm Alona and I'm a motivated <span class="bold-cursive">junior forntend developer</span>. I became interested in programming during my PhD studies and have been hooked ever since. I decided that I want to
+        develop myself in the IT field. Right now I'm mostly
+        interested
+        in <span class="bold-cursive">frontend</span> , but in the future I want to improve in <span
+          class="bold-cursive">React</span> and <span class="bold-cursive">backend</span>. I hope my portfolio and
+        projects will demonstrate
+        my skills and abilities.
+      </p>
+    </div>
+    <div class="cv-box">
+      <a class="btn" target="_blank" href="./docs/CV_Jiroutová_eng.pdf">CV in English</a>
+      <a class="btn" target="_blank" href="./docs/CV_Jiroutová_cze.pdf">CV in Czech</a>
+    </div>
+  </section>
+  <div class="curve second-curve">
+    <svg class="curved-element" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#4e944f" fill-opacity="1"
+        d="M0,224L48,240C96,256,192,288,288,293.3C384,299,480,277,576,277.3C672,277,768,299,864,293.3C960,288,1056,256,1152,240C1248,224,1344,224,1392,224L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+      </path>
+    </svg>
+  </div>
+  <div class="wraper">
+    <section class="projects-section" id="projects-section">
+      <h2 class="projects-section-heading section-heading">My projects</h2>
+      <div class="projects-items-container">
+        <div class="project-item">
+          <div class="project-text-box">
+            <h3 class="project-name">Every Day Use App</h3>
+            <p>
+              The WebApp was built using <span class="bold-cursive">vanilla JavaScript</span> and <span class="bold-cursive">OpenWeatherMap API</span> contains basic applications such as weather app, digital
+              clock, to-do list, notes app and calculator.
+            </p>
+            <a class="project-btn" href="https://alonajiroutova.github.io/EDUA_App/" target="_blank">Go to website</a>
+          </div>
+          <div class="project-preview-carousel">
+            <img class="carousel-item" src="./images/preview/edua_1.png" alt="project-preview">
+            <img class="carousel-item" src="./images/preview/edua_2.png" alt="project-preview">
+            <img class="carousel-item" src="./images/preview/edua_3.png" alt="project-preview">
+            <img class="carousel-item" src="./images/preview/edua_4.png" alt="project-preview">
+          </div>
+
+        </div>
+        <div class="project-item">
+          <div class="project-text-box">
+            <h3 class="project-name">UArt</h3>
+            <p>A multi-page responsive website about Ukrainian cultural figures created using <span
+                class="bold-cursive">Sass</span> and <span class="bold-cursive">JQuery</span>.</p>
+            <a class="project-btn" href="https://alonajiroutova.github.io/UArt/" target="_blank">Go to website</a>
+          </div>
+          <div class="project-preview-carousel">
+            <img class="carousel-item" src="./images/preview/uart_1.png" alt="project-preview">
+            <img class="carousel-item" src="./images/preview/uart_2.png" alt="project-preview">
+            <img class="carousel-item" src="./images/preview/uart_3.png" alt="project-preview">
+            <img class="carousel-item" src="./images/preview/uart_4.png" alt="project-preview">
+            <img class="carousel-item" src="./images/preview/uart_5.png" alt="project-preview">
+            <img class="carousel-item" src="./images/preview/uart_6.png" alt="project-preview">
+          </div>
+        
+        </div>
+        <div class="project-item">
+          <div class="project-text-box">
+            <h3 class="project-name">Memory game</h3>
+            <p>A memory game built using <span class="bold-cursive">React</span> with three play modes.</p>
+            <a class="project-btn" href="https://alonajiroutova.github.io/memory_game_react/" target="_blank">Go to
+              website</a>
+          </div>
+          <div class="project-preview-carousel">
+            <img class="carousel-item" src="./images/preview/memory-game_1.png" alt="project-preview">
+            <img class="carousel-item" src="./images/preview/memory-game_2.png" alt="project-preview">
+            <img class="carousel-item" src="./images/preview/memory-game_3.png" alt="project-preview">
+            <img class="carousel-item" src="./images/preview/memory-game_4.png" alt="project-preview">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="technologies-container">
+      <h3 class="technologies-section-heading">Technologies i use</h3>
+      <div class="techno-icons">
+        <div class="icon-item" id="html-icon"><img src="./images/icons/html.png" alt="icon"><span>HTML</span></div>
+        <div class="icon-item" id="css-icon"><img src="./images/icons/css.png" alt="icon"><span>CSS</span></div>
+        <div class="icon-item" id="js-icon"><img src="./images/icons/js.png" alt="icon"><span>JavaScript</span></div>
+        <div class="icon-item" id="jquery-icon"><img src="./images/icons/jquery.png" alt="icon"><span>jQuery</span></div>
+        <div class="icon-item" id="sass-icon"><img src="./images/icons/logo-sass.png" alt="icon"><span>Sass</span></div>
+        <div class="icon-item" id="node-js-icon"><img src="./images/icons/nodejs.png" alt="icon"><span>Node.js basics</span>
+        </div>
+        <div class="icon-item" id="react-icon"><img src="./images/icons/react_black&white.png" alt="icon"><span>React
+            basics</span>
+        </div>
+      </div>
+    </section>
+    <footer id="contact-section">
+      <div class="contact-text-box">
+        <h4>Contact information:</h4>
+        <p>Alona Jiroutová <br>
+          +420 608 973 <br>
+          usenko1097alena@gmail.com </p>
+        <p id="copyright"></p>
+      </div>
+    </footer>
+  </div>
+  <script src="./index.js"></script>
+</body>
+
+</html>
